@@ -2,9 +2,9 @@
 
 % Настройки стиля ГОСТ 7-32
 % Для начала определяем, хотим мы или нет, чтобы рисунки и таблицы нумеровались в пределах раздела, или нам нужна сквозная нумерация.
-\EqInChapter % формулы будут нумероваться в пределах раздела
-\TableInChapter % таблицы будут нумероваться в пределах раздела
-\PicInChapter % рисунки будут нумероваться в пределах раздела
+\EqInChapter{} % формулы будут нумероваться в пределах раздела
+\TableInChapter{} % таблицы будут нумероваться в пределах раздела
+\PicInChapter{} % рисунки будут нумероваться в пределах раздела
 
 % Добавляем гипертекстовое оглавление в PDF
 \usepackage[
@@ -38,8 +38,8 @@ citecolor=black, menucolor=black, filecolor=black,
 \usepackage{enumerate}
 
 \setcounter{tocdepth}{3} %Подробность оглавления
-%4 это chapter, section, subsection, subsubsection и paragraph
-%3 это chapter, section, subsection и subsubsection
-%2 это chapter, section, и subsection
-%1 это chapter и section
-%0 это chapter.
+%5 это chapter, section, subsection, subsubsection и paragraph
+%4 это chapter, section, subsection и subsubsection
+%3 это chapter, section, и subsection
+%2 это chapter и section
+%1 это chapter.
